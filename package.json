@@ -1,0 +1,16 @@
+{
+  "name": "power-consumption-sync",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.1",
+    "wrangler": "^3.22.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  }
+}

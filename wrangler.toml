@@ -1,0 +1,11 @@
+name = "shelly1pm-comsumption2sheet"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+
+[triggers]
+#crons = ["* * * * *"]
+crons = ["5 * * * *"]
+#crons = [*/10 * * * *]
+

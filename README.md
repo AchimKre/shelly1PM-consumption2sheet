@@ -1,0 +1,1 @@
+The script retrieves the current consumption values from a list of Shelly devices and sends them to a Google Form. The project is deployed as a worker in Cloudfare.
